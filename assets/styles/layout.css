@@ -1,0 +1,65 @@
+.layout-minimal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.card {
+    background-color: var(--card-bg);
+    color: var(--card-text);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* layout-main */
+.layout-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.layout-main header {
+    background-color: var(--header-bg);
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.layout-main .content {
+    flex: 1;
+    display: flex;
+}
+
+.layout-main aside {
+    width: 200px;
+    background-color: var(--card-bg);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.layout-main aside a:hover {
+    text-decoration: underline;
+}
+
+.layout-main main {
+    flex: 1;
+    padding: 2rem;
+}
+
+.layout-main footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}

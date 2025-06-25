@@ -1,3 +1,24 @@
+@import "layout.css";
+
+:root {
+    --bg-color: #10101b;
+    --text-color: #d0e0ea;
+    --header-bg: #2a4b5f;
+    --button-bg: #3b6986;
+    --footer-bg: #0e1c29;
+    --footer-text: #b2c9d6;
+    --card-bg: #12283a;
+    --card-text: #d0e0ea;
+}
+
 body {
-    background-color: skyblue;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: system-ui, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
